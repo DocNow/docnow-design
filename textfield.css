@@ -1,0 +1,24 @@
+.textfield {
+  position: relative;
+  left: 80px;
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.textfield input {
+    font-family: 'Roboto Medium', sans-serif;
+    padding: 8px 8px 8px 8px;
+    font-size: 14px;
+    width: 200px; /* should be made variable with JS */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    appearance: none;
+}
+input:focus {
+  border-bottom: solid 2px #4a4a4a;
+  color: #4a4a4a;
+  outline: none;
+}
