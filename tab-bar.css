@@ -1,10 +1,8 @@
 
 tab-bar {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
   height: 48px;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 tab-bar a {
