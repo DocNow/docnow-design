@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Settings</title>
+      <link rel="stylesheet" type="text/css" href="tab-bar.css" />
+      <link rel="stylesheet" type="text/css" href="button.css" />
+      <link rel="stylesheet" type="text/css" href="textfield.css" />
+      <link rel="stylesheet" type="text/css" href="header.css" />
+      <link rel="stylesheet" type="text/css" href="app-bar.css" />
+      <link rel="stylesheet" type="text/css" href="selectmenu.css" />
+      <link rel="stylesheet" type="text/css" href="intro-p.css" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel=icon href=favicon.png>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<script src="https://use.fontawesome.com/106310272e.js"></script>
+  </head>
+  <body>
+    <app-bar>
+        <a> <i class="fa fa-user" aria-hidden="true"></i> Logout</a>
+        <a> <i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
+    </app-bar>
+    <header>
+      <avatar><img src="docnow_logo_square.png"/></avatar>
+      <logo><center><img src="MITH-extlogotxt-wht.png"/></center></logo>
+    </header>
+  <div>
+    <tab-bar>
+      <ul>
+      <li><a class="tab tab-active" href="#trending">
+      <i class="fa fa-area-chart" aria-hidden="true"></i>  Trending</a></li>
+      <li><a class="tab" href="#search">
+      <i class="fa fa-search" aria-hidden="true"></i>  Search</a></li>
+      <li><a  class="tab" href="#savedsearches">
+      <i class="fa fa-archive" aria-hidden="true"></i> Saved Searches</a></li>
+    </ul>
+    </tab-bar>
+  </div>
+  <div>
+    <intro-p>You are logged in with Twitter as ____________. Disconnect.</intro-p>
+  </div>
+  <div class="container">
+      <h2>Settings</h2>
+        <textfield>
+          <label>Your Name:</label><input type="text" placeholder="">
+        </textfield>
+        <textfield>
+          <label>Email:</label><input type="text" placeholder="">
+        </textfield>
+        <textfield>
+          <label>Instance Title:</label><input type="text" placeholder="">
+        </textfield>
+        <p>
+          <label>Your Logo:</label><button>Upload</button>
+        </p>
+        <p>
+          <label>Trend Locations:</label>
+          <ul>
+          <li><selectlabel>1.</selectlabel>
+          <select>
+             <option value="" default selected>Riverside, CA</option>
+             <option value="grains">Another Twitter Location</option>
+             <option value="vegetables">Third Twitter Location</option>
+          </select></li>
+          <li>
+          <selectlabel>2.</selectlabel>
+          <select>
+           <option value="" default selected>Riverside, CA</option>
+           <option value="grains">Another Twitter Location</option>
+           <option value="vegetables">Third Twitter Location</option>
+          </select></li>
+          <li><selectlabel>3.</selectlabel>
+          <select>
+            <option value="" default selected>Riverside, CA</option>
+            <option value="grains">Another Twitter Location</option>
+            <option value="vegetables">Third Twitter Location</option>
+         </select></li>
+         </ul>
+       </p>
+  </div>
+  <div>
+      <button> Save Settings </button>
+  </div>
+</body>
+</body>
