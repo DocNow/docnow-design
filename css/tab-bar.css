@@ -3,6 +3,7 @@ tab-bar {
   height: 48px;
   text-transform: uppercase;
   padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 tab-bar a {
@@ -22,7 +23,7 @@ tab-bar a:hover, a:active {
  text-align: center;
  text-decoration: none;
  overflow: hidden;
- vertical-align: middle
+ vertical-align: middle;
  }
 
 .tab-active {

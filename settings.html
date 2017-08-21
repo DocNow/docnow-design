@@ -3,14 +3,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Settings</title>
-      <link rel="stylesheet" type="text/css" href="tab-bar.css" />
-      <link rel="stylesheet" type="text/css" href="button.css" />
-      <link rel="stylesheet" type="text/css" href="textfield.css" />
-      <link rel="stylesheet" type="text/css" href="header.css" />
-      <link rel="stylesheet" type="text/css" href="app-bar.css" />
-      <link rel="stylesheet" type="text/css" href="selectmenu.css" />
-      <link rel="stylesheet" type="text/css" href="intro-p.css" />
-      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" type="text/css" href="css/tab-bar.css" />
+      <link rel="stylesheet" type="text/css" href="css/button.css" />
+      <link rel="stylesheet" type="text/css" href="css/textfield.css" />
+      <link rel="stylesheet" type="text/css" href="css/header.css" />
+      <link rel="stylesheet" type="text/css" href="css/app-bar.css" />
+      <link rel="stylesheet" type="text/css" href="css/intro-area.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
       <link rel=icon href=favicon.png>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 <script src="https://use.fontawesome.com/106310272e.js"></script>
@@ -21,8 +20,8 @@
         <a> <i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
     </app-bar>
     <header>
-      <avatar><img src="docnow_logo_square.png"/></avatar>
-      <logo><center><img src="MITH-extlogotxt-wht.png"/></center></logo>
+      <avatar><img src="images/docnow_logo_square.png"/></avatar>
+      <logo><center><img src="images/MITH-extlogotxt-wht.png"/></center></logo>
     </header>
   <div>
     <tab-bar>
@@ -36,8 +35,8 @@
     </ul>
     </tab-bar>
   </div>
-  <div>
-    <intro-p>You are logged in with Twitter as ____________. Disconnect.</intro-p>
+  <div class="container">
+    <intro-p>You are logged in with Twitter as @fromadmwithlove. <a href="/">Disconnect.</a></intro-p>
   </div>
   <div class="container">
       <h2>Settings</h2>
@@ -53,30 +52,6 @@
         <p>
           <label>Your Logo:</label><button>Upload</button>
         </p>
-        <p>
-          <label>Trend Locations:</label>
-          <ul>
-          <li><selectlabel>1.</selectlabel>
-          <select>
-             <option value="" default selected>Riverside, CA</option>
-             <option value="grains">Another Twitter Location</option>
-             <option value="vegetables">Third Twitter Location</option>
-          </select></li>
-          <li>
-          <selectlabel>2.</selectlabel>
-          <select>
-           <option value="" default selected>Riverside, CA</option>
-           <option value="grains">Another Twitter Location</option>
-           <option value="vegetables">Third Twitter Location</option>
-          </select></li>
-          <li><selectlabel>3.</selectlabel>
-          <select>
-            <option value="" default selected>Riverside, CA</option>
-            <option value="grains">Another Twitter Location</option>
-            <option value="vegetables">Third Twitter Location</option>
-         </select></li>
-         </ul>
-       </p>
   </div>
   <div>
       <button>Save Settings</button>
