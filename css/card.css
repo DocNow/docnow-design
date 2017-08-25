@@ -1,0 +1,52 @@
+cardholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ /* @media screen and (max-width: 780px) {
+  cardholder {
+    position: relative;
+    flex-direction: column;
+  }
+} */
+
+card {
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 350px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 30;
+  }
+
+/* On mouse-over, add a deeper shadow */
+card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.cardcontainer {
+    padding: 2px 16px;
+}
+
+data {
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+data ul {
+  list-style: url();
+}
+data li {
+  padding-bottom: 10px;
+  display: block !important;
+}
