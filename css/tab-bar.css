@@ -1,3 +1,15 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+@media screen and (max-width: 780px) {
+  li { display: block;
+       margin: 10;}
+}
 
 tab-bar {
   height: 48px;

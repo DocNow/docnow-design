@@ -3,7 +3,7 @@ trends {
   height: 700px;
   margin: 20 0 20 0;
    /* Location of the image */
-  background-image: url("images/mapbg.png");
+  background-image: url("../images/mapbg.png");
   background-position: center center;
   background-repeat: no-repeat;
   /* Background image is fixed in the viewport so that it doesn't move when
