@@ -1,4 +1,4 @@
-app-bar {
+.app-bar {
   display: flex;
   justify-content: flex-end;
   background-color: #000000;
@@ -6,10 +6,10 @@ app-bar {
   font-size: 9pt;
 }
 
-app-bar a {
+.app-bar a {
   padding: 10px;
   margin-right: 10px;
 }
-app-bar i {
+.app-bar i {
   padding-right: 2px;
 }

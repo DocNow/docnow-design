@@ -1,28 +1,12 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: inline;
-}
-@media screen and (max-width: 780px) {
-  li { display: block;
-       margin: 10;}
-}
-
-tab-bar {
-  height: 48px;
+.tab-bar {
   text-transform: uppercase;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
 }
 
-tab-bar a {
+.tab-bar a {
     color: #4A4A4A;
 }
 
-tab-bar a:hover, a:active {
+.tab-bar a:hover, a:active {
   color: #1E77B6;
 }
 
