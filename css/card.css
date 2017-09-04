@@ -42,8 +42,16 @@
 
 .location a {
   padding-left: 5px;
-    font-size: 10pt;
-    color: #666666;
+  padding-right: 20px;
+}
+
+.newlocation {
+  background-color: #ffffff;
+  padding-right:  10px;
+}
+
+.newlocation i {
+  padding: 10px;
 }
 
 .data {
