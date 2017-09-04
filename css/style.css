@@ -5,7 +5,7 @@ body {
 }
 
 div {
-  padding-left: 50px;
+  padding-left: 20px;
   position: relative;
 }
 
@@ -29,6 +29,7 @@ ul {
 li {
     display: inline;
 }
+
 @media screen and (max-width: 780px) {
   li { display: block;
        margin: 10;}

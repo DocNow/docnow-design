@@ -16,17 +16,17 @@
       <script src="https://use.fontawesome.com/106310272e.js"></script>
   </head>
   <body>
-    <app-bar>
+    <div class="app-bar">
         <a> <i class="fa fa-user" aria-hidden="true"></i> Logout</a>
         <a> <i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
-    </app-bar>
+    </div>
     <header>
-      <avatar><img src="images/Docnow_logo_square.png"/></avatar>
-      <logo><center><img src="images/MITH-extlogotxt-wht.png"/></center></logo>
+      <div class="avatar"><a href="http://docnow.io"><img src="images/Docnow_logo_square.png"/></a></div>
+      <div class="logo"><center><img src="images/MITH-extlogotxt-wht.png"/></center></div>
     </header>
   <div class="container">
   <div>
-    <tab-bar>
+    <div class="tab-bar">
       <ul>
       <li><a class="tab tab-active" href="#trending">
       <i class="fa fa-area-chart" aria-hidden="true"></i>  Trending</a></li>
@@ -35,13 +35,13 @@
       <li><a  class="tab" href="#savedsearches">
       <i class="fa fa-archive" aria-hidden="true"></i> Saved Searches</a></li>
     </ul>
-    </tab-bar>
+  </div>
   </div>
 </div>
   <trends>
-    <cardholder>
-    <card>
-      <data>
+    <div class="cardholder">
+    <div class="card">
+      <div class="data">
          <ul>
           <li><a href="/">#tophashtag 86948</a></li>
           <li><a href="/">#second 67942</li>
@@ -51,17 +51,17 @@
           <li><a href="/">#logoissuecaps 4,444</li>
           <li><a href="/">#lastoneplease 4,354</a></li>
         </ul>
-      </data>
-      <div class="cardcontainer">
+      </div>
+      <div class="location">
       <h2><select>
          <option value="" default selected>Location One</option>
          <option value="grains">Second Location</option>
          <option value="vegetables">Third Location</option>
       </select></h2><a href="/">save</a>
       </div>
-    </card>
-    <card>
-      <data>
+    </div>
+    <div class="card">
+      <div class="data">
         <ul>
           <li><a href="/">#tophashtag 86948</a></li>
           <li><a href="/">#second 67942</a></li>
@@ -71,13 +71,13 @@
           <li><a href="/">#logoissuecaps 4,444</a></li>
           <li><a href="/">#lastoneplease 4,354</a></li>
         </ul>
-      </data>
-      <div class="cardcontainer">
+      </div>
+      <div class="location">
       <h2>Location Two</h2><a href="/">change</a>
       </div>
-    </card>
-    <card>
-      <data>
+    </div>
+    <div class="card">
+      <div class="data">
         <ul>
           <li><a href="/">#tophashtag 86948</a></li>
           <li><a href="/">#second 67942</a></li>
@@ -87,11 +87,11 @@
           <li><a href="/">#logoissuecaps 4,444</a></li>
           <li><a href="/">#lastoneplease 4,354</a></li>
         </ul>
-        </data>
-      <div class="cardcontainer">
+      </div>
+      <div class="location">
       <h2>Location Three</h2><a href="/">change</a>
       </div>
-    </card>
-  </cardholder>
+    </div>
+  </div>
   </trends>
  </body>
