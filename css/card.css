@@ -1,5 +1,6 @@
 .cardholder {
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -20,7 +21,7 @@
     border-radius: 2px;
     overflow: hidden;
     background-color: #ffffff;
-    height: 350px;
+    height: 320px;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -80,4 +81,8 @@ select option {
     font-size: 14px;
     width: 100px;
 
+}
+
+select:disabled {
+  color: #666666;
 }
