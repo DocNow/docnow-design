@@ -27,17 +27,18 @@
 }
 
 /* Add some padding inside the card container */
-.location {
+.cardtitle {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
-    padding: 2px 16px;
+  padding: 2px 16px;
 }
 
-.location a {
+.cardtitle a {
   padding-left: 5px;
   padding-right: 20px;
 }
+
 
 .newlocation {
   background-color: #ffffff;
