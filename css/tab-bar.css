@@ -1,5 +1,6 @@
 .tab-bar {
   text-transform: uppercase;
+  margin-left: 20px;
 }
 
 .tab-bar a {
