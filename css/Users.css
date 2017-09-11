@@ -1,8 +1,10 @@
 .usersCard {
-  height: 240px;
+  height: 264px;
+  background-color: #C8D2D3;
 }
 
 .users {
+  background-color: #ffffff;
   margin: 5px;
   padding: 5px;
   font-size: 10px;
