@@ -1,0 +1,27 @@
+.URLsCard {
+
+  background-color: #C8D2D3;
+}
+
+.URLsCard ul {
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+  height: 242px;
+}
+
+.URLsCard li {
+  display: block;
+  font-size: 9pt;
+  padding-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.URLsCard a {
+  color: #1E77B6;
+
+}
