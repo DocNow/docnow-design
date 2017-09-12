@@ -1,0 +1,23 @@
+.ImagesCard {
+ height: 264px;
+   background-color: #C8D2D3;
+}
+
+.images {
+  border: solid 1px #CCCCCC;
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px 20px 5px 20px;
+
+}
+
+.images img {
+  width: 250px;
+}
+
+.images:hover {
+  border: solid 1px #1E77B6;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
