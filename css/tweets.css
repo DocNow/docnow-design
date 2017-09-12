@@ -1,6 +1,8 @@
 .tweetsCard {
   height: 262px;
   background-color: #C8D2D3;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .tweets {
