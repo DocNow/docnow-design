@@ -1,4 +1,4 @@
-trends {
+.trends {
   position: relative;
   height: 760px;
   margin: 20 0 20 0;
@@ -16,7 +16,7 @@ trends {
   justify-content: center;
 }
 
-trends a {
+.trends a {
     color: #1E77B6;
 }
 
