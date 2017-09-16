@@ -1,4 +1,4 @@
-.intro-p {
+.Intro {
   font-family: 'Roboto:300' serif;
   font-size: 20px;
   font-weight: 200 !important;
@@ -8,20 +8,20 @@
   align-self: flex-start;
 }
 
-.intro-p a {
+.Intro a {
   padding-left: 5px;
     font-size: 10pt;
     color: #666666;
 }
 
-.login  {
+.Login  {
   display: flex;
   flex-direction: column;
   margin-right: 50px !important;
   align-items: flex-end;
 }
 
-.login a {
+.Login a {
   font-family: 'Roboto:300' serif;
   font-size: 10pt;
   color: #666666;

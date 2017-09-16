@@ -1,11 +1,11 @@
-.cardholder {
+.CardHolder {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.card {
+.Card {
   display: flex;
   flex-direction: column;
   justify-content:  space-between;
@@ -22,12 +22,12 @@
 }
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+.Card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
-.cardtitle {
+.CardTitle {
   border-top: 1px solid #CCCCCC;
   background-color: #ffffff;
   display: flex;
@@ -36,31 +36,31 @@
   padding: 2px 16px;
 }
 
-.cardtitle a {
+.CardTitle a {
   padding-left: 5px;
   padding-right: 20px;
 }
 
 
-.newlocation {
+.NewLocation {
   background-color: #ffffff;
   padding-right:  10px;
 }
 
-.newlocation i {
+.NewLocation i {
   padding: 10px;
 }
 
-.data {
+.Data {
   padding-top: 20px;
   text-align: center;
 }
 
-.data ul {
+.Data ul {
   list-style: url();
 }
 
-.data li {
+.Data li {
   padding-bottom: 10px;
   display: block !important;
 }

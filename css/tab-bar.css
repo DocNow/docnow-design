@@ -1,29 +1,28 @@
-.tab-bar {
+.TabBar {
   text-transform: uppercase;
   margin-left: 20px;
 }
 
-.tab-bar a {
+.TabBar a {
     color: #4A4A4A;
 }
 
-.tab-bar a:hover, a:active {
+.TabBar a:hover, a:active {
   color: #1E77B6;
 }
 
-.tab {
- font-size: 14pt;
- font-weight: 500;
- min-width: 120px;
- min-height: 48px;
- padding: 0 24px 0 0;
- text-align: center;
- text-decoration: none;
- overflow: hidden;
- vertical-align: middle;
- }
+.Tab {
+  font-size: 14pt;
+  font-weight: 500;
+  min-width: 120px;
+  min-height: 48px;
+  padding: 0 24px 0 0;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  vertical-align: middle;
+}
 
-.tab-active {
-/*  border-bottom: 3px solid #1E77B6; */
+.TabActive {
   color: #1E77B6 !important;
 }
