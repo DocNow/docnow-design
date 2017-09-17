@@ -19,3 +19,15 @@
 .Trends a {
   color: #1E77B6;
 }
+
+.NewLocation {
+  background-color: #ffffff;
+  padding-right:  10px;
+  opacity: 0.8;
+}
+
+.NewLocation i {
+  padding: 10px;
+}
+
+
