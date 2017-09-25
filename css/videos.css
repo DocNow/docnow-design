@@ -1,11 +1,11 @@
-.ImagesCard {
+.videosCard {
  height: 264px;
  background-color: #C8D2D3;
  overflow-y: scroll;
  overflow-x: hidden;
 }
 
-.Images {
+.videos {
   border: solid 1px #CCCCCC;
   background-color: #ffffff;
   border-radius: 3px;
@@ -13,17 +13,13 @@
   margin: 5px 5px 5px 5px;
 }
 
-.Images img {
+.videos img {
   width: 250px;
   margin-left: 7px;
 }
 
-<<<<<<< Updated upstream:css/Images.css
-.Images:hover {
-=======
 
- .images:hover {
->>>>>>> Stashed changes:css/images.css
+ .videos:hover {
   border: solid 1px #1E77B6;
   background-color: #ffffff;
   border-radius: 3px;
