@@ -2,15 +2,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Settings</title>
+    <title>Create TweetSet</title>
       <link rel="stylesheet" type="text/css" href="css/App.css" />
       <link rel="stylesheet" type="text/css" href="css/TabBar.css" />
-      <link rel="stylesheet" type="text/css" href="css/Button.css" />
-      <link rel="stylesheet" type="text/css" href="css/TextField.css" />
+      <link rel="stylesheet" type="text/css" href="css/Card.css" />
       <link rel="stylesheet" type="text/css" href="css/Header.css" />
       <link rel="stylesheet" type="text/css" href="css/AppBar.css" />
       <link rel="stylesheet" type="text/css" href="css/Intro.css" />
-      <link rel=icon href=favicon.png>
+      <link rel="stylesheet" type="text/css" href="css/SearchBar.css" />
+      <link rel="stylesheet" type="text/css" href="css/Button.css" />
+      <link rel="stylesheet" type="text/css" href="css/TextField.css" />
+      <link rel=icon href="images/favicon.png">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 <script src="https://use.fontawesome.com/106310272e.js"></script>
   </head>
@@ -26,26 +28,22 @@
   <div>
     <div class="TabBar">
       <ul>
-      <li><a class="Tab TabActive" href="#trending">
+      <li><a class="Tab" href="#trending">
       <i class="fa fa-area-chart" aria-hidden="true"></i>  Trending</a></li>
-      <li><a class="Tab" href="#explore">
+      <li><a class="Tab TabActive" href="#explore">
       <i class="fa fa-search" aria-hidden="true"></i>  Explore</a></li>
       <li><a  class="Tab" href="#savedsearches">
-      <i class="fa fa-archive" aria-hidden="true"></i> Saved Searches</a></li>
+      <i class="fa fa-archive" aria-hidden="true"></i> Saved TweetSets</a></li>
     </ul>
-  </div>
-  </div>
-  <div>
-    <div class="Intro"><p>You are logged in with Twitter as @fromadmwithlove. <a href="/">Disconnect.</a></p></div>
+   </div>
   </div>
   <div>
-        <textfield>
-          <h2>Settings</h2>
-          <label>Your Name:</label><input type="text" placeholder="">
-          <label>Email:</label><input type="text" placeholder="">
-          <label>Instance Title:</label><input type="text" placeholder="">
-          <p><label>Your Logo:</label><button type="button">Upload</button></p>
-          <div><button type="button">Save Settings</button></div>
-        </textfield>
-  </div>
+    <textfield>
+      <h2>Create #Example TweetSet</h2>
+        <label>Title:</label><input type="text" placeholder="">
+        <label>Description:</label><input type="text" placeholder="">
+        <label>Instance Title:</label><input type="text" placeholder="">
+        <div><button type="button">Save TweetSet</button></div>
+    </textfield>
+    </div>
 </body>
