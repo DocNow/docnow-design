@@ -1,11 +1,11 @@
-.Textfield {
+.TextField {
   position: relative;
   display: flex;
   flex-direction: column;
   margin-left: 50px;
 }
 
-.Textfield input[type=text] {
+.TextField input[type=text] {
   font-family: 'Roboto Medium', sans-serif;
   padding: 8px 8px 8px 8px;
   font-size: 14px;
@@ -17,7 +17,7 @@
   appearance: none;
 }
 
-.Textfield input {
+.TextField input {
   font-family: 'Roboto Medium', sans-serif;
   padding: 8px 8px 8px 8px;
   font-size: 14px;
