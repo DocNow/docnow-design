@@ -1,23 +1,11 @@
-textfield {
+.Textfield {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
-<<<<<<< HEAD
-textfield input[type=text] {
-    font-family: 'Roboto Medium', sans-serif;
-    padding: 8px 8px 8px 8px;
-    font-size: 14px;
-    width: 200px; /* should be made variable with JS */
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    background: none;
-    appearance: none;
-=======
-textfield input {
+.Textfield input[type=text] {
   font-family: 'Roboto Medium', sans-serif;
   padding: 8px 8px 8px 8px;
   font-size: 14px;
@@ -27,7 +15,17 @@ textfield input {
   border-left: none;
   background: none;
   appearance: none;
->>>>>>> origin/master
+}
+
+.Textfield input {
+  font-family: 'Roboto Medium', sans-serif;
+  padding: 8px 8px 8px 8px;
+  font-size: 14px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: none;
+  appearance: none;
 }
 
 input:focus {
@@ -36,7 +34,6 @@ input:focus {
   outline: none;
 }
 
-label {
+Label {
   margin-top:5px;
-
 }
