@@ -2,13 +2,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Create TweetSet</title>
+    <title>Saved TweetSets</title>
     <link rel="stylesheet" type="text/css" href="css/App.css" />
     <link rel="stylesheet" type="text/css" href="css/TabBar.css" />
     <link rel="stylesheet" type="text/css" href="css/Button.css" />
-    <link rel="stylesheet" type="text/css" href="css/TextField.css" />
     <link rel="stylesheet" type="text/css" href="css/Header.css" />
     <link rel="stylesheet" type="text/css" href="css/AppBar.css" />
+    <link rel="stylesheet" type="text/css" href="css/Intro.css" />
+    <link rel="stylesheet" type="text/css" href="css/Grid.css" />
     <link rel=icon href=favicon.png>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/106310272e.js"></script>
@@ -27,21 +28,34 @@
         <ul>
           <li><a class="Tab" href="trends_maxfive.html"><i class="fa fa-area-chart" aria-hidden="true"></i>  Trending</a></li>
           <li><a class="Tab" href="explore.html"><i class="fa fa-search" aria-hidden="true"></i>  Explore</a></li>
-          <li><a  class="Tab" href="savedtweetsets.html"><i class="fa fa-archive" aria-hidden="true"></i> Saved TweetSets</a></li>
+          <li><a  class="Tab TabActive" href="#savedtweetsets"><i class="fa fa-archive" aria-hidden="true"></i> Saved TweetSets</a></li>
         </ul>
       </div>
     </div>
-    <div>
-      <div class="TextField">
-        <h2>Create #Example TweetSet</h2>
-        <label>Title:</label><input type="text" placeholder="">
-        <label>Description:</label><input type="text" placeholder=""><br>
-        <label>Start:</label><br>
-        <label><input type="radio" name="now" value="now" checked>Now </label>
-        <label><input type="radio" name="last24" value="last24">24 hours back</label>
-        <label><input type="radio" name="asfarback" value="asfarback">As far as API allows <a href="">Learn more.</a></label><br>
-        <label>Remove protected tweets?<input type="checkbox" placeholder=""></label>
-        <div><button type="button">Save TweetSet</button></div>
+    <div class="Grid">
+      <div class="GridRow">
+        <div class="GridItem"><h2>Title</h2></div>
+        <div class="GridItem"><h2>Tweet Count</h2></div>
+        <div class="GridItem"><h2>Activity</h2></div>
+        <div class="GridItem"><h2>Actions<h2></div>
+      </div>
+      <div class="GridRowGray">
+        <div class="GridTitle">Hurricanes in February</div>
+        <div class="GridCount">1,293,011</div>
+        <div class="GridActivity"> 25,000 in last 15 minutes, 20% dropoff rate</div>
+        <div class="GridActions">pause/stop/turbo boost buttons?</div>
+      </div>
+      <div class="GridRow">
+        <div class="GridTitle">#exampletitle</div>
+        <div class="GridCount">24,593</div>
+        <div class="GridActivity">1,543  in last 15 minutes</div>
+        <div class="GridActions">pause/stop/turbo boost buttons?</div>
+      </div>
+      <div class="GridRowGray">
+        <div class="GridTitle">Hurricanes in February</div>
+        <div class="GridCount">1,293,011</div>
+        <div class="GridActivity"> 25,000 in last 15 minutes, 20% dropoff rate</div>
+        <div class="GridActions">pause/stop/turbo boost buttons?</div>
       </div>
     </div>
   </body>
