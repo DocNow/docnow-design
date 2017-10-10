@@ -4,6 +4,10 @@
   color: #444444;
 }
 
+.Grid a {
+  color: #1E77B6;
+  text-decoration: none;
+}
 .GridRow {
   display: flex;
 }
