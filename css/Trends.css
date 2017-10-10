@@ -24,10 +24,12 @@
   background-color: #ffffff;
   padding-right:  10px;
   opacity: 0.8;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .NewLocation i {
   padding: 10px;
 }
-
-
