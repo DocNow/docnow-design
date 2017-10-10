@@ -8,6 +8,7 @@
   color: #1E77B6;
   text-decoration: none;
 }
+
 .GridRow {
   display: flex;
 }
@@ -16,6 +17,16 @@
   display: flex;
   background-color: #eeeeee;
 }
+
+.GridRowInner {
+  display: flex;
+}
+
+.GridRowGrayInner {
+  display: flex;
+  background-color: #eeeeee;
+}
+
 
 .GridItem {
   flex: 1;
@@ -51,6 +62,27 @@
   border: none;
 }
 
+ .GridActionsInner {
+  padding-right: 25px;
+  border: none;
+}
+
+.GridActionsInner i {
+  font-size: 20px;
+}
+
+.fa-pause-circle-o {
+  color: orange;
+}
+
+.fa-stop-circle-o {
+  color: red;
+}
+
+.fa-angle-double-up {
+  color: green;
+}
+
 .InnerGrid {
   border: solid .5px #eeeeee;
 }
@@ -60,6 +92,8 @@
   .GridRow, .GridRowGray {
      flex-direction: column;
   }
+
+
   .GridItem {
     display:none;
   }
