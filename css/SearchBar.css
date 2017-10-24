@@ -2,7 +2,12 @@
   margin-top: 20px;
 }
 
-
+@media screen and (max-width: 500px) {
+  form a {
+    display:block;
+    padding-left: 0px !important;
+  }
+}
 .SearchBar button i {
   padding-left: 0px !important;
 }

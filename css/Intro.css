@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   margin-right: 50px !important;
-  align-items: flex-end;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -10,11 +9,11 @@
 .Intro p {
   font-family: 'Roboto:300' serif;
   font-size: 20px;
+  justify-content: center;
   font-weight: 200 !important;
   color: #666666;
-  margin-top:20px;
+  margin-top: -10px;
   margin-left: 20px;
-  align-self: flex-start;
 }
 
 .Intro a {
@@ -23,12 +22,12 @@
   color: #666666;
 }
 
-.Intro button {
-  margin-top: 0px;
+.IntroButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
 }
 
-@media screen and (min-width: 1180px) {
-  .Intro button {
-    margin-top: -40px;
-  }
+.IntroButtons button {
+  margin: 20 10 0 0;
 }

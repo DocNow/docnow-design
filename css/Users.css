@@ -1,5 +1,5 @@
 .UsersCard {
-  height: 264px;
+  height: 274px;
   background-color: #C8D2D3;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -9,7 +9,7 @@
   background-color: #ffffff;
   margin: 5px;
   padding: 5px;
-  font-size: 10px;
+  font-size: 9pt;
   border: 1px solid #CCCCCC;
   border-radius: 3px;
 }
@@ -44,5 +44,5 @@
 
 .Users p {
   margin: 5px;
-  font-size: 8pt;
+  font-size: 10pt;
 }
