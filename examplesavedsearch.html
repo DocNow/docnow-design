@@ -2,14 +2,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Search</title>
+    <title>Example Saved Search</title>
       <link rel="stylesheet" type="text/css" href="css/App.css" />
       <link rel="stylesheet" type="text/css" href="css/TabBar.css" />
       <link rel="stylesheet" type="text/css" href="css/Card.css" />
       <link rel="stylesheet" type="text/css" href="css/Header.css" />
       <link rel="stylesheet" type="text/css" href="css/AppBar.css" />
-      <link rel="stylesheet" type="text/css" href="css/Intro.css" />
-      <link rel="stylesheet" type="text/css" href="css/SearchBar.css" />
+      <link rel="stylesheet" type="text/css" href="css/Grid.css" />
+      <link rel="stylesheet" type="text/css" href="css/SavedSearchInfo.css" />
+      <link rel="stylesheet" type="text/css" href="css/TweetTabBar.css" />
       <link rel="stylesheet" type="text/css" href="css/Button.css" />
       <link rel="stylesheet" type="text/css" href="css/Users.css" />
       <link rel="stylesheet" type="text/css" href="css/Tweets.css" />
@@ -38,17 +39,26 @@
       </ul>
     </div>
   </div>
-  <div class="SearchBar">
-    <form>
-      <input type="text" placeholder="#hashtag" required>
-      <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> <a href="/">Search tips</a>
-    </form>
+  <div class="SavedSearchInfo">
+    <div class="SavedSearchText">
+      <h2>Title of Saved Search <i class="fa fa-edit" aria-hidden="true"></i></h2>
+      <p>Here is the description of the collection. This will be pretty short most likely and can be edited in situ. <i class="fa fa-edit" aria-hidden="true"></i><br>
+        Search started on XX/XX/XX, last updated on XX/XX/XX at XX:XX:XX</p>
+    </div>
+    <div class="SavedSearchButtons">
+      <button type="button" style="color:orange"> Stop<i class="fa fa-stop" aria-hidden="true"></i> </button>
+      <button type="button" style="color:green"> Resume<i class="fa fa-repeat" aria-hidden="true"></i> </button>
+      <button type="button" style="color:red"> Delete<i class="fa fa-trash" aria-hidden="true"></i> </button>
+    </div>
   </div>
-  <div class="Intro">
-    <p>Retrieved 1,000 tweets going back to 8:15 AM using Twitter's Search API. This set includes 4 protected tweets.</p>
+  <div class="TweetTabBar">
+    <ul>
+      <li><a class="TweetTab" href="trends_maxfive.html"><i class="fa fa-archive" aria-hidden="true"></i>  All</a></li>
+      <li><a class="TweetTab TweetTabActive" href="#explore"><i class="fa fa-check-square-o" aria-hidden="true"></i>  Selected</a></li>
+      <li><a  class="TweetTab" href="savedsearches.html"><i class="fa fa-comment" aria-hidden="true"></i> Annotated</a></li>
+    </ul>
   </div>
-  <div class="IntroButtons"><button type="button">Update</button> <button type="button">Create TweetSet</button>
-  </div>
+
     <div class="CardHolder">
       <div class="Card">
         <div class="TweetsCard">
