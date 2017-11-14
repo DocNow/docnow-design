@@ -72,3 +72,60 @@ select option {
 select:disabled {
   color: #666666;
 }
+
+.SavedShortCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  background-color: #ffffff;
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.SavedShortGraphCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  background-color: #ffffff;
+  height: 300px;
+  width: 300px;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.SavedLongCard {
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-between;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #ffffff;
+  height: 300px;
+  width: 660px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 660px) {
+  .SavedLongCard {
+    width: 300px;
+  }
+}
+
+.SavedShortCard a {
+  text-decoration: none;
+  color: #1E77B6;
+}
+
+.SavedShortCard h1 {
+  text-align: center;
+}
