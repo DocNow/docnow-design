@@ -22,6 +22,9 @@
   font-weight: 500;
 }
 
+.App h1 {
+  text-transform: uppercase;
+}
 .App li {
   display: inline;
 }
