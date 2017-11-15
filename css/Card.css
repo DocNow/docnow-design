@@ -121,18 +121,16 @@ select:disabled {
 .SavedImageCard img {
   opacity: .3;
 }
+
 .SavedImageCard h1 {
    position: absolute;
+   background-color: rgba(255,255,255,0.6);
+   width: 300px;
    align-items: center;
    justify-content: center;
    text-align: center;
 }
 
-.SavedImageCard p {
-   position: absolute;
-   align-self: center;
-   bottom: 00;
-}
 
 .SavedLongCard {
   display: flex;
