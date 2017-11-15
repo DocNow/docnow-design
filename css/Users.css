@@ -49,3 +49,10 @@
   margin: 5px;
   font-size: 10pt;
 }
+
+.Count {
+  display: inline-block;
+  font-size: 20pt;
+  font-weight: bold;
+  padding-left:20px;
+}
