@@ -108,6 +108,7 @@ input:checked + .slider:before {
   padding: 12px;
   font-size: 14pt;
   border: none;
+  text-transform: uppercase;
 }
 
 .GridCount {
