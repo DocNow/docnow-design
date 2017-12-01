@@ -1,0 +1,204 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Search</title>
+      <link rel="stylesheet" type="text/css" href="css/App.css" />
+      <link rel="stylesheet" type="text/css" href="css/TabBar.css" />
+      <link rel="stylesheet" type="text/css" href="css/Card.css" />
+      <link rel="stylesheet" type="text/css" href="css/Header.css" />
+      <link rel="stylesheet" type="text/css" href="css/AppBar.css" />
+      <link rel="stylesheet" type="text/css" href="css/Intro.css" />
+      <link rel="stylesheet" type="text/css" href="css/SearchBar.css" />
+      <link rel="stylesheet" type="text/css" href="css/Button.css" />
+      <link rel="stylesheet" type="text/css" href="css/Users.css" />
+      <link rel="stylesheet" type="text/css" href="css/Tweets.css" />
+      <link rel="stylesheet" type="text/css" href="css/Urls.css" />
+      <link rel="stylesheet" type="text/css" href="css/Images.css" />
+      <link rel="stylesheet" type="text/css" href="css/Videos.css" />
+      <link rel=icon href="images/favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<script src="https://use.fontawesome.com/106310272e.js"></script>
+  </head>
+  <body class="App">
+    <div class="AppBar">
+        <a> <i class="fa fa-user" aria-hidden="true"></i> Logout</a>
+        <a href="settings.html"> <i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
+    </div>
+    <header>
+      <div class="Avatar"><a href="http://docnow.io"><img src="images/Docnow_logo_square.png"/></a></div>
+      <div class="Logo"><center><img src="images/MITH-extlogotxt-wht.png"/></center></div>
+    </header>
+  <div>
+    <div class="TabBar">
+      <ul>
+        <li><a class="Tab" href="trends_maxfive.html"><i class="fa fa-area-chart" aria-hidden="true"></i>  Trending</a></li>
+        <li><a class="Tab TabActive" href="#explore"><i class="fa fa-search" aria-hidden="true"></i>  Explore</a></li>
+        <li><a  class="Tab" href="savedsearches.html"><i class="fa fa-archive" aria-hidden="true"></i> Saved Searches</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="SearchBar">
+    <form>
+      <input type="text" placeholder="#hashtag" required>
+      <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> <a href="/">Search tips</a>
+    </form>
+  </div>
+  <div class="Intro">
+    <p>Retrieved 1,000 tweets going back to 8:15 AM using Twitter's Search API. This set includes 4 protected tweets.</p>
+  </div>
+  <div class="IntroButtons"><button type="button">Update</button> <button type="button">Create TweetSet</button>
+  </div>
+    <div class="CardHolder">
+      <div class="Card">
+        <div class="TweetsCard">
+          <div class="Tweets">
+            <div class="TweetsProfile">
+            <img src="images/profile.jpg"></img>
+            <div class="TweetsName">Ed Summers</div>
+            <div><a href="http://twitter.com/edsu">@edsu</a></div>
+            <hr><a href="https://twitter.com/edsu/status/911923192339550208">2 hrs</a>
+          </div>
+          <p>here is the content of the tweet. we wont have viewer for URLs.</p>
+          <div class="Inline"><i class="fa fa-comment-o"></i>17</div>
+          <div class="Inline"><i class="fa fa-retweet"></i>22</div>
+          <div class="Inline"><i class="fa fa-heart-o"></i>46</div>
+        </div>
+        <div class="Tweets">
+          <div class="TweetsProfile">
+          <img src="images/profile.jpg"></img>
+          <div class="TweetsName">ADM ADM ADM</div>
+          <div><a href="http://twitter.com/edsu">@fromadmwithlove</a></div>
+        </div>
+        <div><a href="https://twitter.com/edsu/status/911923192339550208">2017-11-12T15:33</a></div>
+
+        <p>here is the content of a short tweet.</p>
+        <div class="Inline"><i class="fa fa-comment-o"></i>17</div>
+        <div class="Inline"><i class="fa fa-retweet"></i>22</div>
+        <div class="Inline"><i class="fa fa-heart-o"></i>46</div>
+      </div>
+      <div class="Tweets">
+        <div class="TweetsProfile">
+        <img src="images/profile.jpg"></img>
+        <div class="TweetsName">Ed Summers</div>
+        <hr><a href="https://twitter.com/edsu/status/911923192339550208">Oct 24 2017</a>
+      </div>
+      <div><a href="http://twitter.com/edsu">@edsu</a></div>
+      <p>here is the content of the tweet. we wont have viewer for URLs.</p>
+      <div class="Inline"><i class="fa fa-comment-o"></i>17</div>
+      <div class="Inline"><i class="fa fa-retweet"></i>22</div>
+      <div class="Inline"><i class="fa fa-heart-o"></i>46</div>
+    </div>
+      </div>
+        <div class="CardTitle">
+        <h2>Tweets</h2>
+        </div>
+      </div>
+      <div class="Card">
+        <div class="UsersCard">
+          <div class="Users">
+            <div class="UsersProfile">
+              <img src="images/profile.jpg"></img>
+              <div class="UsersName">Ed Summers</div>
+              <div class="UsersHandle"><a href="http://twitter.com/edsu">@edsu</a></div>
+          </div>
+            <div class="Inline"><b>20,000</b><br> followers</div>
+            <div class="Inline"><b>8,123</b><br> following</div>
+            <div class="Inline"><b>8,123</b><br> tweets</div>
+            <div class="Count">6</div>
+            <hr>
+            <p>I'm a software developer at @umd_mith & study archives on & of the web at @iSchoolUMD - workin' on http://docnow.io  - also: @inkdroid@mastodon.social</p>
+            <div class="Inline"><i class="fa fa-map-marker" aria-hidden="true"></i> Silver Spring, MD</div>
+            <div class="Inline"><a href="http://inkdroid.net">inkdroid.net</a></div>
+          </div>
+          <div class="Users">
+            <div class="UsersProfile">
+              <img src="images/profile.jpg"></img>
+              <div class="UsersName">Alexandra Dolan-Mescal</div>
+              <div class="UsersHandle"><a href="http://twitter.com/fromadmwithlove">@fromadmwithlove</a></div>
+            </div>
+            <div class="Inline"><b>8,432</b><br> followers</div>
+            <div class="Inline"><b>8,123</b><br> following</div>
+            <div class="Inline"><b>8,123</b><br> tweets</div>
+            <div class="UserCount">5</div>
+            <hr>
+            <p>a much shorter profile sentence example.</p>
+            <div class="Inline"><a href="http://dhalab.org/alexdm">dhalab.org/alexdm</a></div>
+          </div>
+          <div class="Users">
+            <div class="UsersProfile">
+              <img src="images/profile.jpg"></img>
+              <div class="UsersName">Alexandra Dolan-Mescal</div>
+              <div class="UsersHandle"><a href="http://twitter.com/fromadmwithlove">@fromadmwithlove</a></div>
+            </div>
+            <div class="Inline"><b>8,432</b><br> followers</div>
+            <div class="Inline"><b>8,123</b><br> following</div>
+            <div class="Inline"><b>8,123</b><br> tweets</div>
+            <div class="Count">4</div>
+            <hr>
+            <p>a much shorter profile sentence example.</p>
+          </div>
+        </div>
+        <div class="CardTitle">
+        <h2>Users</h2>
+        </div>
+      </div>
+
+      <div class="Card">
+        <div class="Data">
+        </div>
+        <div class="CardTitle">
+        <h2>Hashtags</h2>
+        </div>
+      </div>
+
+      <div class="Card">
+        <div class="URLsCard">
+          <ul>
+            <li><a href="/">http://nytimes.com/global/longtitleofanarticle/referencetooriginofshare</a></li>
+            <li><a href="/">http://twitter.com/user/alotofthesemightjustbetwitterlinks</a></li>
+            <li><a href="/">http://willthisjustbeinorderofhowtheyarecomingin</a></li>
+            <li><a href="/">http://sincethisisjusttheeplorationphasedowelinktothewebsiteortothetweet?/</a></li>
+            <li><a href="/">http://nytimes.com/global/longtitleofanarticle/referencetooriginofshare</a></li>
+            <li><a href="/">http://twitter.com/user/alotofthesemightjustbetwitterlinks</a></li>
+            <li><a href="/">http://willthisjustbeinorderofhowtheyarecomingin</a></li>
+            <li><a href="/">http://sincethisisjusttheeplorationphasedowelinktothewebsiteortothetweet?/</a></li>
+          </ul>
+        </div>
+        <div class="CardTitle">
+        <h2>Links</h2>
+        </div>
+      </div>
+      <div class="Card">
+        <div class="ImagesCard">
+          <div class="images">
+            <a href="https://twitter.com/fromADMwithlove/status/906719881734901760">
+            <img src="images/image.png"></img></a>
+          </div>
+          <div class="images">
+           <a href="https://twitter.com/fromADMwithlove/status/906719881734901760">
+             <img src="images/image.png"></img></a>
+         </div>
+        </div>
+        <div class="CardTitle">
+        <h2>Images</h2>
+        </div>
+      </div>
+      <div class="Card">
+        <div class="VideosCard">
+          <div class="Videos">
+            <a href="https://twitter.com/fromADMwithlove/status/906719881734901760">
+            <img src="images/image.png"></img></a>
+         </div>
+         <div class="Videos">
+           <a href="https://twitter.com/fromADMwithlove/status/906719881734901760">
+             <img src="images/image.png"></img></a>
+        </div>
+        </div>
+        <div class="CardTitle">
+        <h2>Videos</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

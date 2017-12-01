@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Create TweetSet</title>
+    <link rel="stylesheet" type="text/css" href="css/App.css" />
+    <link rel="stylesheet" type="text/css" href="css/TabBar.css" />
+    <link rel="stylesheet" type="text/css" href="css/Button.css" />
+    <link rel="stylesheet" type="text/css" href="css/TextField.css" />
+    <link rel="stylesheet" type="text/css" href="css/Header.css" />
+    <link rel="stylesheet" type="text/css" href="css/AppBar.css" />
+    <link rel=icon href=favicon.png>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/106310272e.js"></script>
+  </head>
+  <body class="App">
+    <div class="AppBar">
+      <a> <i class="fa fa-user" aria-hidden="true"></i> Logout</a>
+      <a href="settings.html"> <i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
+    </div>
+    <header>
+      <div class="Avatar"><a href="http://docnow.io"><img src="images/Docnow_logo_square.png"/></a></div>
+      <div class="Logo"><center><img src="images/MITH-extlogotxt-wht.png"/></center></div>
+    </header>
+    <div>
+      <div class="TabBar">
+        <ul>
+          <li><a class="Tab" href="trends_maxfive.html"><i class="fa fa-area-chart" aria-hidden="true"></i>  Trending</a></li>
+          <li><a class="Tab" href="explore.html"><i class="fa fa-search" aria-hidden="true"></i>  Explore</a></li>
+          <li><a  class="Tab" href="savedsearches.html"><i class="fa fa-archive" aria-hidden="true"></i> Saved Searches</a></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="TextField">
+        <h2>Create #Example TweetSet</h2>
+        <label>Title:</label><input type="text" placeholder="">
+        <label>Description:</label><input type="text" placeholder=""><br>
+        <label>Start:</label><br>
+        <label><input type="radio" name="now" value="now" checked>Now </label>
+        <label><input type="radio" name="last24" value="last24">24 hours back</label>
+        <label><input type="radio" name="asfarback" value="asfarback">As far as API allows <a href="">Learn more.</a></label><br>
+        <label>Remove protected tweets?<input type="checkbox" placeholder=""></label>
+        <div><button type="button">Save TweetSet</button></div>
+      </div>
+    </div>
+  </body>

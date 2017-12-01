@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  align-content: center;
+  height:40px;
+  background-color: #ffff00;
+}
+
+footer p {
+  margin-left: 20px;
+  color: #ffffff;
+}
