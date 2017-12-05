@@ -30,7 +30,6 @@
   display: inline;
 }
 
-
 .App button {
   color: #ffffff;
   display: inline-block;
@@ -68,7 +67,7 @@
 }
 
 .App H1 a:hover {
- color: #ffff00;
+ color: #0f1282;
 }
 
 @media screen and (max-width: 780px) {

@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Example Saved Search - User Insights</title>
+    <title>Example Saved Search - URL Insights</title>
       <link rel="stylesheet" type="text/css" href="css/App.css" />
       <link rel="stylesheet" type="text/css" href="css/TabBar.css" />
       <link rel="stylesheet" type="text/css" href="css/Card.css" />
@@ -39,14 +39,14 @@
   </div>
   <div class="SavedSearchInfo">
     <div class="SavedSearchInsightText">
-      <h2><a href="/">Title of Saved Search</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> User Insights</h2>
+      <h2><a href="/">Title of Saved Search</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> URL Insights</h2>
       <p>Here is the description of the collection. This will be pretty short most likely and can be edited in situ.<br>
         Search started on XX/XX/XX, last updated on XX/XX/XX at XX:XX:XX</p>
     </div>
     <div class="SavedSearchButtons">
-      <button type="button" style="color:orange"> Stop<i class="fa fa-stop" aria-hidden="true"></i> </button>
-      <button type="button" style="color:green"> Resume<i class="fa fa-repeat" aria-hidden="true"></i> </button>
-      <button type="button" style="color:red"> Delete<i class="fa fa-trash" aria-hidden="true"></i> </button>
+      <button type="button" id="stop"><i class="fa fa-stop" aria-hidden="true"></i> </button>
+      <button type="button" id="restart"><i class="fa fa-repeat" aria-hidden="true"></i> </button>
+      <button type="button" id="delete"><i class="fa fa-trash" aria-hidden="true"></i> </button>
     </div>
   </div>
   <div class="TweetTabBar">

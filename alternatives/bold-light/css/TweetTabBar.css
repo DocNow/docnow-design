@@ -1,35 +1,37 @@
 .TweetTabBar {
   text-transform: uppercase;
-  background-color: #1E77B6;
-
+  background-color: #0f1282;
 }
 
 .TweetTabBar ul {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 10px;
 }
 
 .TweetTabBar a {
-  color: #CCCCCC;
+  color: #ffffff;
 }
 
 .TweetTabBar a:hover, a:active {
   color: #FFFFFF;
+  background-color: #000000;
+  padding: 10px;
 }
 
 .TweetTab {
   font-size: 12pt;
-  font-weight: 200;
+  font-weight: 500;
   min-width: 100px;
-  padding: 0 24px 0 0;
   text-align: center;
   text-decoration: none;
   overflow: hidden;
   vertical-align: middle;
-  margin-left: 25px;
+  margin-left: 40px;
+  padding: 10px;
 }
 
 .TweetTabActive {
   color: #FFFFFF !important;
   text-decoration: none;
+  background-color: #000000;
+  padding: 10px;
 }

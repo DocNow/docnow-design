@@ -133,7 +133,6 @@ select:disabled {
    text-align: center;
 }
 
-
 .SavedLongCard {
   display: flex;
   flex-direction: column;
@@ -155,9 +154,13 @@ select:disabled {
 
 .CardHolder a {
   text-decoration: none;
-  color: #1E77B6;
+  color: #1da1f2;
 }
 
 .SavedShortCard h1 {
   text-align: center;
+}
+
+.SavedShortCard h1:hover {
+  color: #0f1282 !important;
 }

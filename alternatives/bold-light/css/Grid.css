@@ -12,7 +12,7 @@
 
 .Grid a:hover {
   cursor: pointer;
-  color: #ffff00;
+  color: #0f1282;
 }
 
 .Grid a::after {
