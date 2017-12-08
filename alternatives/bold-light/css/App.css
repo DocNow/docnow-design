@@ -9,6 +9,11 @@
   position: relative;
 }
 
+.App p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .container {
   margin-top: 20px;
 }
@@ -20,6 +25,8 @@
   font-size: 16pt;
   font-stretch: expanded;
   font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .App h1 {
