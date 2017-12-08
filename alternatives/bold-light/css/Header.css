@@ -1,7 +1,7 @@
 header {
   display: flex;
-  background-color: #000000;
-  height: 60px;
+  border-bottom: 3px solid #000000;
+  height: 65px;
   margin-bottom: 20px;
 }
 
@@ -15,6 +15,7 @@ header {
   position: relative;
   margin: 0 auto;
   padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 480px) {
