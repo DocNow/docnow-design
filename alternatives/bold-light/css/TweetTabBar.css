@@ -8,14 +8,14 @@
 }
 
 .TweetTabBar a {
-  color: #1da1f2;
+  color: #cdc9f1;
 }
 
 .TweetTabBar a:hover, a:active {
-  color: #0f1282;
+  color: #000000;
   font-weight: 600;
   padding: 10px;
-  border-bottom: 3px solid #0f1282;
+  border-bottom: 3px solid #cdc9f1;
 }
 
 .TweetTab {
@@ -31,9 +31,9 @@
 }
 
 .TweetTabActive {
-  color: #0f1282 !important;
+  color: #000000 !important;
   text-decoration: none;
   padding: 10px;
-  border-bottom: 3px solid #0f1282;
+  border-bottom: 3px solid #cdc9f1;
   font-weight: 600;
 }
