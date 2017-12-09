@@ -114,13 +114,33 @@ h4 {
   border-top: 1px solid #CCCCCC;
   background-color: #ffffff;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Count {
+  font-size: 12pt;
+  padding-left: 5px;
 }
 
 .WebsiteName a {
   text-decoration: none;
-  color: blue;
+}
+
+.Controls i {
+  font-size: 20pt;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#Selected {
+  color: #1da1f2;
+}
+
+#Selected:hover {
+  color: #ffff00;
+}
+
+#Deselected:hover {
+  color: #cdc9f1;
 }
