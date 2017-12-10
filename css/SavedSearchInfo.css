@@ -3,7 +3,7 @@
 }
 
 .SavedSearchText {
-  flex: 3;
+  flex: 1;
   padding: 12px;
   border: none;
   margin-left: 50px;
@@ -14,14 +14,14 @@
 }
 
 .SavedSearchInsightText {
-  flex: 3;
+  flex: 1;
   padding: 12px;
   border: none;
   margin-left: 50px;
 }
 
 .SavedSearchInsightText i {
-  color: #1E77B6;
+  color: #1da1f2;
   font-weight:100;
   font-size: 12pt;
 }
@@ -31,15 +31,8 @@
   text-decoration: none;
 }
 
-.SavedSearchButtons {
-  flex: .5;
-  flex-direction: column;
-  border: none;
-
+#trash {
+font-size: 16pt;
+  color: #ff0000;
+  padding-left: 20px;
 }
-  .SavedSearchButtons button {
-    width: 120px;
-    margin-right: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }

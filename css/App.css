@@ -9,6 +9,11 @@
   position: relative;
 }
 
+.App p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .container {
   margin-top: 20px;
 }
@@ -17,32 +22,33 @@
   position: relative;
   text-transform: uppercase;
   color: #000000;
-  font-size: 14pt;
+  font-size: 16pt;
   font-stretch: expanded;
   font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .App h1 {
   text-transform: uppercase;
 }
+
 .App li {
   display: inline;
 }
 
-
 .App button {
-  color: #1E77B6;
+  color: #ffffff;
   display: inline-block;
   position: relative;
   height: 36px;
   padding: 0 16px;
   margin: 20 0 20 0;
   border: none;
-  border-radius: 2px;
-  outline: solid 1px;
-  background: transparent;
+  border-radius: 8px;
+  background-color: #1da1f2;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: .04em;
   line-height: 36px;
   text-align: center;
@@ -56,19 +62,19 @@
   -webkit-appearance: none;
 }
 
+.App button:hover {
+  cursor: pointer;
+  color: #ffffff !important;
+  outline: none !important;
+  background-color: #0f1282;
+}
+
 .App button i {
   padding-left: 5px;
 }
 
 .App H1 a:hover {
- color: cdc9f1;
-}
-
-.App button:hover {
-  cursor: pointer;
-  color: #ffffff !important;
-  outline: none !important;
-  background-color: #1e77b6;
+ color: #0f1282;
 }
 
 @media screen and (max-width: 780px) {
