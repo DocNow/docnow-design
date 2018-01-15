@@ -7,6 +7,13 @@
   padding: 5px;
 }
 
+@media screen and (max-width: 780px) {
+  .TweetTabBar a {
+    padding: none !important;
+    border-bottom: none !important;
+  }
+}
+
 .TweetTabBar a {
   color: #cdc9f1;
 }
