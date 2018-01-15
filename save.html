@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Create TweetSet</title>
+    <title>Save Search</title>
     <link rel="stylesheet" type="text/css" href="css/App.css" />
     <link rel="stylesheet" type="text/css" href="css/TabBar.css" />
     <link rel="stylesheet" type="text/css" href="css/Button.css" />
@@ -34,15 +34,13 @@
     </div>
     <div>
       <div class="TextField">
-        <h2>Create #Example TweetSet</h2>
+        <h2>Save Example Search</h2>
         <label>Title:</label><input type="text" placeholder="">
-        <label>Description:</label><input type="text" placeholder=""><br>
-        <label>Start:</label><br>
-        <label><input type="radio" name="now" value="now" checked>Now </label>
-        <label><input type="radio" name="last24" value="last24">24 hours back</label>
-        <label><input type="radio" name="asfarback" value="asfarback">As far as API allows <a href="">Learn more.</a></label><br>
-        <label>Remove protected tweets?<input type="checkbox" placeholder=""></label>
-        <div><button type="button">Save TweetSet</button></div>
+        <label>Description:</label><input type="text" placeholder="">
+        <label>Remove Protected Tweets?</label><br>
+        <label><input type="radio" name="yes" value="yes" checked>Yes</label>
+        <label><input type="radio" name="no" value="no">No</label>
+        <div><button type="button">Save</button></div>
       </div>
     </div>
     <footer>
