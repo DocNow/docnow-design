@@ -13,8 +13,6 @@
       <link rel="stylesheet" type="text/css" href="css/SavedSearchInfo.css" />
       <link rel="stylesheet" type="text/css" href="css/TweetTabBar.css" />
       <link rel="stylesheet" type="text/css" href="css/Button.css" />
-      <link rel="stylesheet" type="text/css" href="css/DownloadOptions.css" />
-
       <link rel=icon href="images/favicon.png">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 <script src="https://use.fontawesome.com/106310272e.js"></script>
@@ -33,7 +31,7 @@
       <ul>
         <li><a class="Tab" href="trends_maxfive.html"><i class="fa fa-area-chart" aria-hidden="true"></i>  Trending</a></li>
         <li><a class="Tab" href="#explore"><i class="fa fa-search" aria-hidden="true"></i>  Explore</a></li>
-        <li><a  class="Tab" href="savedsearches.html"><i class="fa fa-archive" aria-hidden="true"></i> Saved Searches</a></li>
+        <li><a  class="Tab TabActive" href="savedsearches.html"><i class="fa fa-archive" aria-hidden="true"></i> Saved Searches</a></li>
       </ul>
     </div>
   </div>
@@ -41,12 +39,11 @@
     <div class="SavedSearchInsightText">
       <h2><a href="/">Title of Saved Search</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> User Insights</h2>
       <p>Here is the description of the collection. This will be pretty short most likely and can be edited in situ.<br>
-        Search started on XX/XX/XX, last updated on XX/XX/XX at XX:XX:XX</p>
+      Search started on XX/XX/XX, last updated on XX/XX/XX at XX:XX:XX</p>
     </div>
-    <div class="SavedSearchButtons">
-      <button type="button" style="color:orange"> Stop<i class="fa fa-stop" aria-hidden="true"></i> </button>
-      <button type="button" style="color:green"> Resume<i class="fa fa-repeat" aria-hidden="true"></i> </button>
-      <button type="button" style="color:red"> Delete<i class="fa fa-trash" aria-hidden="true"></i> </button>
+    <div class="SavedSearchDownload">
+      <button type="button"><i class="fa fa-download" aria-hidden="true"></i> All Users</button>
+      <button type="button"><i class="fa fa-download" aria-hidden="true"></i> Selected</button>
     </div>
   </div>
   <div class="TweetTabBar">
@@ -56,5 +53,7 @@
       <li><a  class="TweetTab" href="exampleannotated.html"><i class="fa fa-comment" aria-hidden="true"></i> Annotated</a></li>
     </ul>
   </div>
-
+  <footer>
+    <p>Documenting the Now is serious about our <a href="/">Ethics Policy<a/> and <a href="/">Terms and Conditions</a>. Read them and abide by them, please. </p>
+  </footer>
 </body>
