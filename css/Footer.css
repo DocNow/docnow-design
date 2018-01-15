@@ -1,11 +1,11 @@
 footer {
-  display: flex;
-  align-content: center;
-  height:40px;
-  background-color: cdc9f1;
+  position: absolute;
+  width:100%;
+  bottom:-30px;
+  background-color: #cdc9f1;
 }
 
 footer p {
   margin-left: 20px;
-  color: #000000
+  color: #000000;
 }

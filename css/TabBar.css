@@ -17,7 +17,7 @@
   font-weight: 500;
   min-width: 120px;
   height: 40px;
-  padding: 6 24px 6 6;
+  padding: 6px 24px 6px 6px;
   text-align: center;
   text-decoration: none;
   overflow: hidden;
@@ -25,8 +25,6 @@
 }
 
 .TabActive {
-  color: cdc9f1 !important;
+  color: #cdc9f1 !important;
   background-color: #000000 !important;
-
-
 }

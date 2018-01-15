@@ -5,6 +5,17 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin-bottom: 0px;
+  min-height: 100%;
+}
+
 .App div {
   position: relative;
 }
@@ -69,12 +80,8 @@
   background-color: #0f1282;
 }
 
-.App button i {
-  padding-left: 5px;
-}
-
 .App H1 a:hover {
- color: #0f1282;
+  color: #0f1282;
 }
 
 @media screen and (max-width: 780px) {
