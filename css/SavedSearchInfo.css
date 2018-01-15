@@ -31,23 +31,37 @@
   text-decoration: none;
 }
 
-.SavedSearchActions {
+.SavedSearchDownload {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  flex-direction: column;
   justify-content: space-around;
   margin-right: 55px !important;
 }
 
-.SavedSearchActions i {
+.SavedSearchDownload i {
  color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+.SavedSearchDownload {
+  display:block;
+  margin-right: 5px !important;
+}
+}
+
+.SavedSearchActions {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-top: -20px;
 }
 
 #trash {
   font-size: 20pt;
   color: #ff0000;
   height: 36px;
-  padding: 0 16px;
-  margin: 20 0 20 0;
+  padding: 10px;
 }
 
 /* The switch - the box around the slider */
@@ -56,7 +70,7 @@
   display: inline-block;
   width: 50px;
   height: 24px;
-  margin: 10 0 20 0;
+  margin: 10 0 10 0;
   margin-bottom: 20px;
 }
 
