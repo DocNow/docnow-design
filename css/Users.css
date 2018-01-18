@@ -51,6 +51,27 @@
   padding-right: 10px;
 }
 
+.UserStats {
+  position: absolute;
+  height: 25px;
+  border-top: 1px solid #CCCCCC;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.TwitterUserStats {
+  position: absolute;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
 .Inline {
   display: inline-block;
   text-align: center;
@@ -60,11 +81,4 @@
 .Users p {
   margin: 5px;
   font-size: 10pt;
-}
-
-.UserCount {
-  display: inline-block;
-  font-size: 18pt;
-  font-weight: bold;
-  padding-left:20px;
 }
