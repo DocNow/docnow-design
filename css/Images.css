@@ -23,3 +23,14 @@
 .Images img {
   width: 300px;
 }
+
+.ImageStats {
+  position: absolute;
+  height: 25px;
+  border-top: 1px solid #CCCCCC;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+}
