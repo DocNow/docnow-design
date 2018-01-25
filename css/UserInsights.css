@@ -22,12 +22,30 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .UserName {
+  font-weight: bold;
+  background-color: #ffff00;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.TwitterUserStats {
+  position: absolute;
+  font-size: 10pt;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.Inline {
+  display: inline-block;
+  text-align: center;
+  padding-left: 2px;
 }
 
 .User img {
