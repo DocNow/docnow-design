@@ -6,7 +6,6 @@
   font-size: 11pt;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 0;
   box-sizing: border-box;
   border-radius: 2px;
@@ -21,7 +20,7 @@
 .UserProfile {
   display: flex;
   align-items: center;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 
 .UserProfile i {
@@ -62,8 +61,11 @@
   padding: 4px;
 }
 
-.UserBio p {
-  padding-left: 2px;
+.UserBio {
+  padding-top: 2px;
+  padding-left: 3px;
+  min-height: 105px;
+  max-height: 105px;
 }
 
 .Stats {
