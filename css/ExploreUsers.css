@@ -52,7 +52,6 @@
 }
 
 .UserStats {
-  position: absolute;
   height: 25px;
   border-top: 1px solid #CCCCCC;
   background-color: #ffffff;
@@ -63,7 +62,6 @@
 }
 
 .TwitterUserStats {
-  position: absolute;
   height: 25px;
   display: flex;
   justify-content: space-around;

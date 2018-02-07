@@ -23,12 +23,13 @@
   opacity: 0.9;
 }
 
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .CardTitle {
   background-color: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding: 2px 16px;
+  text-align: center;
 }
 
 .CardTitle h2 {
@@ -38,11 +39,14 @@
 
 .CardTitle i {
   padding: 10px;
+  cursor: pointer;
 }
 
 .Data {
   padding-top: 20px;
   text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .Data ul {
